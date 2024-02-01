@@ -1,0 +1,74 @@
+.background-image {
+    opacity: 0.2;
+}
+.body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-style: italic;    
+}
+
+.navigation-grocery {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-items {
+    list-style-type: none;
+}
+
+.navigation-items li {
+    display: inline;
+    margin-right: 16px;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    max-width: 300;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.our-product {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-position:center ;
+    
+    background-repeat: no-repeat;
+}
+
+.inquiry-customer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inquery-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.border {
+    display: none;
+    border: 1px solid black;
+}
+
+.footer {
+    margin-top: 250px;
+}
+
+
+
+
+
+
+
